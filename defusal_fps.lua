@@ -1,17 +1,20 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-    Name = "Defusal",
-    LoadingTitle = "Карыч Studio",
-    LoadingSubtitle = "by Kirilkani123",
+    Name = "Adrenaline Defusal FPS",
+    LoadingTitle = "Adrenaline.CC",
+    LoadingSubtitle = "by kyoukidevs",
     ConfigurationSaving = {
        Enabled = true,
        FolderName = nil,
-       FileName = "Big Hub"
+       FileName = "Adrenaline"
     }
 })
 
-local Tab = Window:CreateTab("Legit", 4483362458)
+local LegitTab = Window:CreateTab("Legit", "mouse")
+local RageTab = Window:CreateTab("Rage", "crosshair")
+local VisualsTab = Window:CreateTab("Visuals", "eye")
+local LocalTab = Window:CreateTab("Local", "user-round")
 
 local speedHackEnabled = false
 local speedHackConnection = nil
