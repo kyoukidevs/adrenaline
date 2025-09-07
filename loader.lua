@@ -9,7 +9,7 @@ local UserInputService = game:GetService("UserInputService")
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-    Name = "Adrenaline Defusal FPS",
+    Name = "Adrenaline Universal",
     LoadingTitle = "Adrenaline.CC",
     LoadingSubtitle = "by kyoukidevs",
     ConfigurationSaving = {
